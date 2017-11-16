@@ -31,7 +31,7 @@
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.39025034939999997" blue="0.53430386860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.63025129899546428" blue="0.62359508225438109" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="RMi-o0-dJf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CZN-DJ-djR"/>
                             <constraint firstItem="RMi-o0-dJf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fh7-wZ-SAy"/>
@@ -42,6 +42,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7U7-Xf-sDD">
+            <objects>
+                <viewController id="wCB-gQ-cZC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jQ3-c0-izZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.92740175690000004" blue="0.63053974160000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="LYT-5d-wW7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Irh-BJ-KaQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="847" y="133"/>
         </scene>
     </scenes>
 </document>
