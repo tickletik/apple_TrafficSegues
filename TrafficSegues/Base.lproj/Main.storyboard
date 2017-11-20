@@ -75,7 +75,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="LYT-5d-wW7"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Yellow" id="05j-nJ-iZR"/>
+                    <navigationItem key="navigationItem" title="Yellow" largeTitleDisplayMode="never" id="05j-nJ-iZR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Irh-BJ-KaQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
