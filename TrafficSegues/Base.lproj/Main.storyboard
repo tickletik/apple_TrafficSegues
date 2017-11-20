@@ -107,7 +107,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="W7G-HG-61f"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Green" id="fjJ-C6-fph"/>
+                    <navigationItem key="navigationItem" title="Green" id="fjJ-C6-fph">
+                        <barButtonItem key="rightBarButtonItem" title="Pop" id="tLx-uQ-5KO"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2n9-nQ-Vwv" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="PQ5-g2-SKd" userLabel="Exit" sceneMemberID="exit"/>
