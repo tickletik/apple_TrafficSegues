@@ -33,10 +33,18 @@
                                     <segue destination="wCB-gQ-cZC" kind="show" id="SoW-iQ-m3s"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Text HEre" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ds6-t6-r3f">
+                                <rect key="frame" x="98" y="393" width="179.5" height="33"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.63025129899546428" blue="0.62359508225438109" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="RMi-o0-dJf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CZN-DJ-djR"/>
+                            <constraint firstItem="Ds6-t6-r3f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="O9s-4v-QNe"/>
+                            <constraint firstItem="Ds6-t6-r3f" firstAttribute="top" secondItem="RMi-o0-dJf" secondAttribute="bottom" constant="40" id="XkV-Ej-77W"/>
                             <constraint firstItem="RMi-o0-dJf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fh7-wZ-SAy"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -44,6 +52,9 @@
                     <navigationItem key="navigationItem" title="RED" id="fXn-dF-FbE">
                         <barButtonItem key="backBarButtonItem" title="Go To RED" id="FbS-NK-wxe"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="textField" destination="Ds6-t6-r3f" id="WxS-Sa-nxW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
