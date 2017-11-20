@@ -17,9 +17,16 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
-    @IBAction func unwindToRed(unwindSegue: UIStoryboardSegue) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let textvalue = textField.text {
+            if textvalue != "" {
         
+                segue.destination.navigationItem.title = textField.text
+            }
+        }
+    }
+    
+    @IBAction func unwindToRed(unwindSegue: UIStoryboardSegue) {
     }
 
 }
